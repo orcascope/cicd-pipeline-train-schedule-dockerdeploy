@@ -14,7 +14,7 @@ pipeline {
             }
             steps {
                 script {
-                    app = docker.build("orcascope/train-schedule")
+                    app = docker.build("ars1001/train-schedule")
              
                 }
             }
